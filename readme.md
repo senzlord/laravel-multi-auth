@@ -12,7 +12,7 @@ How to use:
 7. Use tinker to set Admin email and password
       ```
       php artisan tinker
-      $admin = App\Admin
+      $admin = new App\Admin
       $admin->email = 'admin@app.com'
       $admin->password = Hash::make('adminpassword')
       $admin->save()
